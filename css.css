@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(164, 244, 164);
+   justify-content: space-between;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+.logo{
+
+
+  
+
+    display: flex;
+
+}
+
+.logo img{
+   width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    margin: 20px;
+
+
+}
+
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.banner{
+    width: 100%;
+    height: 700px;
+}
+
+.banner img{
+    width: 100%;
+    height: 700px
+}
+
+.contenido{
+    width: 100%;
+    height: 700px;
+      
+      display: flex;
+    
+}
+
+.nose{
+    margin-left: 200px;
+    margin-right: 200px;
+  margin-top: 50px;
+    display: flex;
+}
+
+h2{
+    margin-top: 30px;
+  text-align: center;
+    font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nose img{
+    margin: 10px;
+     width: 200px;
+     height: 200px;
+     border-radius: 50% 20% / 10% 40%;
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3); ;
+}
+
+.nose p{
+    margin-top: 30px;
+    text-align: start;
+ font-size: large;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background: black;
+
+}
+
+footer h2{
+    color: #B1B1B1;
+    
+}
+
+footer p{
+    color: #727272;
+}
+
+
+
+.info{
+    
+    width: 450px;
+    height: 190px;
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+.num{
+    margin-left:120px;
+}
+
+.nada{
+    margin-left: 10px;
+}
+
+.eso{
+    margin-left: 175px;
+    font-size: 20px;
+  
+}
+
+
+.ubicacion {
+ display: flex;
+height: 50px;
+
+   
+}
+
+
+.ubicacion p{
+  
+    font-size: 20px;
+    color: #727272;
+}
+
+.ubi {
+    margin-left: 200px;
+}
+
+.todo{
+   
+
+    margin: 10px;
+    display: flex;
+}
+
+.redes{
+    margin-left: 600px;
+    margin-top: 80px;
+    
+}
+
+.redes img{
+    height: 50px;
+}
+
+.redes img:hover{
+
+    transition: all 500ms ease;
+    transform: scale(1.30);
+   
+}
+
+
+
+.face{
+    margin-right: 10px;
+}
+
+
+

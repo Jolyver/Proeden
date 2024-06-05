@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(164, 244, 164);
+   justify-content: space-between;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+.logo{
+
+
+  
+
+    display: flex;
+
+}
+
+.logo img{
+   width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    margin: 20px;
+
+
+}
+
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.contenedor{
+    width: 300px;
+    display: flex;
+   
+   float: left;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 130px;
+
+}
+
+.contenedor figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px rgba(0,0,0,0.50);
+
+
+}
+
+.contenedor figure img{
+
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(95, 98, 98, 0.6);
+    opacity: 0;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.contenedor figure:hover > .capa h3{
+
+      margin-top: 70px;
+      margin-bottom: 15px;
+
+}
+
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+
+.contenedor figure .capa h3{
+
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+ 
+}
+
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+.todos{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    border: 1px red solid;
+}
+
+footer{
+    margin-top: 800px;
+    width: 100%;
+    background: black;
+
+}
+
+footer h2{
+    color: #B1B1B1;
+    
+}
+
+footer p{
+    color: #727272;
+}
+
+
+
+.info{
+    
+    width: 450px;
+    height: 190px;
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+.num{
+    margin-left:120px;
+}
+
+.nada{
+    margin-left: 10px;
+}
+
+.eso{
+    margin-left: 175px;
+    font-size: 20px;
+  
+}
+
+
+.ubicacion {
+ display: flex;
+height: 50px;
+
+   
+}
+
+
+.ubicacion p{
+  
+    font-size: 20px;
+    color: #727272;
+}
+
+.ubi {
+    margin-left: 200px;
+}
+
+.todo{
+   
+
+    margin: 10px;
+    display: flex;
+}
+
+.redes{
+    margin-left: 600px;
+    margin-top: 80px;
+    
+}
+
+.redes img{
+    height: 50px;
+}
+
+.redes img:hover{
+
+    transition: all 500ms ease;
+    transform: scale(1.30);
+   
+}
+
+
+
+.face{
+    margin-right: 10px;
+}
+
+

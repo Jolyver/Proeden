@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(164, 244, 164);
+   justify-content: space-between;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+.logo{
+
+    display: flex;
+
+}
+
+.logo img{
+   width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    margin: 20px;
+
+
+}
+
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin :auto;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+
+}
+
+.container-form h2{
+
+    margin-bottom: 15px;
+    font-size: 35px;
+
+
+}
+
+.container-form p{
+
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.container-form a i{
+
+    color: orange;
+    margin-right: 10px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+
+}
+
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+     max-height: 150px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(122, 181, 122);
+    color: white;
+    border-radius: 3px;
+   cursor: pointer;
+   transition: all 300ms ease;
+
+   
+}
+
+.container-form .btn-enviar:hover{
+    background: #a9fd85;
+}
+
+footer{
+    width: 100%;
+    background: black;
+margin-top: 70px;
+}
+
+footer h2{
+    color: #B1B1B1;
+    
+}
+
+footer p{
+    color: #727272;
+}
+
+
+
+.info{
+    
+    width: 450px;
+    height: 190px;
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+.num{
+    margin-left:120px;
+}
+
+.nada{
+    margin-left: 10px;
+}
+
+.eso{
+    margin-left: 175px;
+    font-size: 20px;
+  
+}
+
+
+.ubicacion {
+ display: flex;
+height: 50px;
+
+   
+}
+
+
+.ubicacion p{
+  
+    font-size: 20px;
+    color: #727272;
+}
+
+.ubi {
+    margin-left: 200px;
+}
+
+.todo{
+   
+
+    margin: 10px;
+    display: flex;
+}
+
+.redes{
+    margin-left: 600px;
+    margin-top: 80px;
+    
+}
+
+.redes img{
+    height: 50px;
+}
+
+.redes img:hover{
+
+    transition: all 500ms ease;
+    transform: scale(1.30);
+   
+}
+
+
+
+.face{
+    margin-right: 10px;
+}
+
